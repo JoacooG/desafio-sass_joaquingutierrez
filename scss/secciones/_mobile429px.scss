@@ -1,0 +1,35 @@
+@media (max-width: 429px) {
+    header .botonesFlex{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        list-style: none;
+        align-items: center;
+        background-color: #1B120F;
+        padding: 10px;
+    } 
+    .header { 
+        grid-area: Header; 
+    }
+    .main { 
+        grid-area: Main;
+        max-width: 208px;
+    }
+    .noticias img{
+        max-width: 310px;
+    }
+    .sponsor1 img{
+        max-width: 310px;
+    }
+    .sponsor2 img{
+        max-width: 310px;
+    }
+    .imgQs{
+        max-width: 310px;
+        max-height: 310px;
+    }
+}
