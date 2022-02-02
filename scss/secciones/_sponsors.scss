@@ -1,26 +1,44 @@
-.sponsor1 img {
-    width: 500px;
+.sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    @extend %estiloParrafo;
+}
+
+.sponsor1{
+    img{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
 
 }
 
-.sponsor1 a {
-    text-decoration: none;
-    color: #F89D13
+
+
+.sponsor2{
+    img{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
 }
 
-.sponsor2 img {
-    width: 500px;
+.sponsor3{
+    img{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
 }
 
-.sponsor2 a {
-    text-decoration: none;
-    color: #F89D13
-}
 
 .zoomSponsor {
     transition: transform .2s;
-}
 
-.zoomSponsor:hover {
-    transform: scale(0.8);
+    &:hover {
+        transform: scale(0.8);
+    }
 }

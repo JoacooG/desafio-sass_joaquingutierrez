@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// VARIABLES
+@import './variables/extend';
+@import './variables/mixin';
+
+
 .container {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
@@ -26,24 +32,18 @@
 .footer { 
     grid-area: Footer;
     padding:10px;
-    background-color: #1B120F; 
+    background-color: #1B120F;
 }
 body{
     background-color: #E6DEDD;
 }
 h1{
-    color: #8F1D14;
-    font-size: 70px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 10px;
-    padding: 10px;
+    @include titulo (#8F1D14, 70px,);
+
 }
 h4{
     font-size: 20px;
 }
-
-
-// VARIABLES
 
 
 // SECCIONES
